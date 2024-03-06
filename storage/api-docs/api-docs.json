@@ -1,0 +1,24 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Documentation API",
+        "version": "1.0"
+    },
+    "paths": {
+        "/api/task": {
+            "post": {
+                "tags": [
+                    "Task"
+                ],
+                "summary": "Get list tasks",
+                "operationId": "72ff7ad53b57661b08436018bd13ad26",
+                "requestBody": {},
+                "responses": {
+                    "200": {
+                        "description": "ok"
+                    }
+                }
+            }
+        }
+    }
+}
