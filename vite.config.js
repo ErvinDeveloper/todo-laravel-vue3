@@ -3,6 +3,11 @@ import laravel from 'laravel-vite-plugin'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
+    configureWebpack: {
+        devServer: {
+            headers: { "Access-Control-Allow-Origin": "*" }
+        }
+    },
     plugins: [
         vue(),
         laravel({
